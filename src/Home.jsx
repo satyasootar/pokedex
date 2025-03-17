@@ -4,7 +4,7 @@ import { TailSpin } from 'react-loader-spinner'
 import { Link } from 'react-router-dom';
 
 function Home() {
-  const [pokemon, setPokemon] =  useState([]);
+  const [pokemon, setPokemon] = useState([]);
   const [searchTerm, setSearchTerm] = useState('');
   const [darkMode, setDarkMode] = useState(() => {
     const saved = localStorage.getItem('darkMode');
@@ -95,7 +95,7 @@ function Home() {
                     defense={ele?.stats[2].base_stat}
                     specialAttack={ele?.stats[3].base_stat}
                     specialDefense={ele?.stats[4].base_stat}
-                    imageUrl={ele?.sprites.other.dream_world.front_default}
+                    imageUrl={ele?.sprites.other['official-artwork'].front_default}
                   />
                 </Link>
               ))}
