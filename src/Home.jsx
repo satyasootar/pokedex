@@ -4,7 +4,7 @@ import { TailSpin } from 'react-loader-spinner'
 import { Link } from 'react-router-dom';
 
 function Home() {
-  const [pokemon, setPokemon] = useState([]);
+  const [pokemon, setPokemon] =  useState([]);
   const [searchTerm, setSearchTerm] = useState('');
   const [darkMode, setDarkMode] = useState(() => {
     const saved = localStorage.getItem('darkMode');
