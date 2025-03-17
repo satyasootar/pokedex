@@ -13,7 +13,7 @@ function Home() {
 
   const fetchPokemon = async () => {
     try {
-      const res = await fetch("https://pokeapi.co/api/v2/pokemon?limit=200&offset=0");
+      const res = await fetch("https://pokeapi.co/api/v2/pokemon?limit=100&offset=0");
       const data = await res.json();
 
       const pokemonData = data.results.map(async (currentPokemon) => {
