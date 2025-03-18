@@ -26,12 +26,8 @@ A modern and interactive Pokedex web application built using **React**, **Tailwi
 
 ---
 
-Here’s the installation part in plain text for you to copy:
 
-
----
-
-⚙️ Installation
+##⚙️ Installation
 
 1. Clone the repository:
 
