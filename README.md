@@ -1,12 +1,48 @@
-# React + Vite
+# Pokedex  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and interactive Pokedex web application built using **React**, **Tailwind CSS**, **Framer Motion**, and **Swiper.js**. It provides detailed information about various Pokémon, including their abilities, stats, types, and images. The data is fetched from the **PokeAPI**.  
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features  
 
-## Expanding the ESLint configuration
+- **Dynamic Pokémon Detail Pages:** View detailed stats, abilities, and images of each Pokémon.  
+- **Smooth Animations:** Utilizes **Framer Motion** for interactive animations.  
+- **Responsive Design:** Fully responsive and optimized for mobile and desktop screens.  
+- **Carousel for Pokémon Images:** Implemented using **Swiper.js** for smooth image transitions.  
+- **Dark Mode Support:** Seamless switch between light and dark themes.  
+- **Efficient Data Fetching:** Fetches data from the **PokeAPI** dynamically based on the Pokémon ID.  
+- **Interactive Navigation:** Easily navigate back to the Pokedex list.  
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack  
+
+- **React:** Front-end framework for building the UI.  
+- **Tailwind CSS:** Styling the application with utility classes.  
+- **Framer Motion:** Adding smooth animations and transitions.  
+- **Swiper.js:** Creating interactive carousels for Pokémon images.  
+- **PokeAPI:** Fetching Pokémon data.  
+
+---
+
+
+##⚙️ Installation
+
+1. Clone the repository:
+
+git clone https://github.com/satyasootar/pokedex
+
+cd pokedex
+
+
+2. Install dependencies:
+
+npm install --legacy-peer-deps
+
+
+3. Start the development server:
+
+npm run dev
+
+
